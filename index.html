@@ -73,17 +73,17 @@
             document.querySelector(".weather-type").innerHTML = data.weather[0].main;
 
             if(data.weather[0].main == "Clouds"){
-                weatherIcon.src = "/img/clouds.png";
+                weatherIcon.src = "./img/clouds.png";
                 weatherBackGround.style.background = "linear-gradient(to right, #757f9a, #d7dde8)";
                 weatherClass.style.color = "#FFFFFF";
             }
             else if(data.weather[0].main == "Clear"){
-                weatherIcon.src = "/img/clear.png";
+                weatherIcon.src = "./img/clear.png";
                 weatherBackGround.style.background = "linear-gradient(120deg, #f6d365 0%, #fda085 100%)";
                 weatherClass.style.color = "#FFFFFF";
             }
             else if(data.weather[0].main == "Rain"){
-                weatherIcon.src = "/img/rain.png";
+                weatherIcon.src = "./img/rain.png";
                 weatherBackGround.style.background = "linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 51%, rgba(0,212,255,1) 100%)";
                 weatherClass.style.color = "#FFFFFF";
             }
@@ -93,17 +93,17 @@
                 weatherClass.style.color = "#FFFFFF";
             }
             else if(data.weather[0].main == "Mist"){
-                weatherIcon.src = "/img/mist.png";
+                weatherIcon.src = "./img/mist.png";
                 weatherBackGround.style.background = "linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%)";
                 weatherClass.style.color = "#FFFFFF";
             }
             else if(data.weather[0].main == "Snow"){
-                weatherIcon.src = "/img/snow.png";
+                weatherIcon.src = "./img/snow.png";
                 weatherBackGround.style.background = "linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%)";
                 weatherClass.style.color = "#000000";
             }
             else if(data.weather[0].main == "Haze"){
-                weatherIcon.src = "/img/haze.png";
+                weatherIcon.src = "./img/haze.png";
                 weatherBackGround.style.background = "linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%)";
                 weatherClass.style.color = "#FFFFFF";
             }
